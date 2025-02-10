@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="中国地级行政区测试，考验你对中国地级市的认知">
+    <meta name="keywords" content="中国地图,地级市,地理测试,行政区划,地理知识">
+    <meta name="author" content="QingJ">
+    <title>中国地级行政区测试</title>
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-title">
+                <h1>中国地级行政区测试</h1>
+            </div>
+            <div class="navbar-links">
+                <a href="world.html" class="navbar-link" title="切换到世界地图测试">
+                    <i class="fas fa-globe-americas"></i>
+                    <span class="link-text">世界地图</span>
+                </a>
+                <a href="https://github.com/QingJ01/map_test/" target="_blank" class="navbar-link" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://qm.qq.com/cgi-bin/qm/qr?k=XaCDC5RLlXsTvIU8EybUZYiHdHylvwjH&jump_from=webapi&authKey=uauNQV+LjBNx5uBuaxBk4Snvwz7wR5tTWJs6ilOjKfMb2ZWcNDxDPNWac3EIB2Xb"
+                    target="_blank" class="navbar-link" title="加入QQ群">
+                    <i class="fab fa-qq"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="header">
+            <div class="status-box">
+                <div id="status" class="status-info">
+                    已答对: 0 / 0 个地级市
+                </div>
+                <div id="timer" class="timer">
+                    用时: 00:00
+                </div>
+            </div>
+            <div class="control-buttons">
+                <button id="startBtn" class="btn">开始</button>
+                <button id="pauseBtn" class="btn" disabled>暂停</button>
+                <button id="endBtn" class="btn" disabled>结束</button>
+            </div>
+        </div>
+        <div id="map-container"></div>
+        <div class="input-box">
+            <input type="text" id="cityInput" placeholder="请输入地级市名称（如：北京、上海、广州）" autocomplete="off">
+        </div>
+    </div>
+    <div id="resultModal" class="modal">
+        <div class="modal-content">
+            <h2>测试结果</h2>
+            <div class="result-stats">
+                <div class="stat-item">
+                    <span class="stat-label">用时：</span>
+                    <span id="finalTime" class="stat-value">00:00</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">答对：</span>
+                    <span id="finalScore" class="stat-value">0/0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">评价：</span>
+                    <span id="evaluation" class="stat-value">-</span>
+                </div>
+            </div>
+            <div class="missed-cities">
+                <h3>未答出的城市：</h3>
+                <div id="missedList" class="missed-list"></div>
+            </div>
+            <button id="closeModal" class="btn">关闭</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>SVG地图来源：高德开放平台 | 数据更新于2021.5 | 仅供学习交流使用</p>
+                <p class="taiwan-notice">台湾省数据短缺，只需输入台湾即可点亮全省</p>
+                <p class="taiwan-statement">台湾是中华人民共和国不可分割的部分</p>
+                <p>氢云 © 2025</p>
+                <p>公众号：氢云小窝</p>
+            </div>
+            <div class="footer-links">
+                <span>友情链接：</span>
+                <a href="https://blog.byebug.cn/" target="_blank">情酱の小窝</a>
+                <span class="divider">|</span>
+                <a href="https://qingj01.github.io/Speed_test/index.html" target="_blank">反应测试</a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
