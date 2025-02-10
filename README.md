@@ -46,7 +46,7 @@
 ## 👥关于我们
 - QQ群：[加入QQ群](https://qm.qq.com/cgi-bin/qm/qr?k=XaCDC5RLlXsTvIU8EybUZYiHdHylvwjH&jump_from=webapi&authKey=uauNQV+LjBNx5uBuaxBk4Snvwz7wR5tTWJs6ilOjKfMb2ZWcNDxDPNWac3EIB2Xb)
 - 博客：[情酱の小窝](https://blog.byebug.cn)
-- 公众号：氢云小窝![公众号](https://img.picui.cn/free/2025/02/10/67a9e8fbe2385.png)
+- 公众号：极客氢云![公众号](https://img.picui.cn/free/2025/02/10/67a9e8fbe2385.png)
 
 ## 📄许可证
 基于Apache License 2.0协议开源
