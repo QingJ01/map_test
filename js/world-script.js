@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'Ukraine': ['乌克兰'],
         'United Arab Emirates': ['阿联酋', '阿拉伯联合酋长国'],
         'United Kingdom': ['英国', '大不列颠及北爱尔兰联合王国'],
-        'United States': ['美国', '美利坚合众国', '美利坚'],
+        'United States of America': ['美国', '美利坚合众国', '美利坚'],
         'Uruguay': '乌拉圭',
         'Uzbekistan': ['乌兹别克斯坦', '乌兹别克'],
         'Vanuatu': '瓦努阿图',
